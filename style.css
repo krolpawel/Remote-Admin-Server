@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+	height:100%;
+	width:80%;
+	margin:auto;
+	}  
+table {
+    margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+    border: 1px #E0E0E0 solid;
+    color: #6C6C6C;
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+	}  
+tr:nth-child(odd) {
+    background: #F0F0F0;
+	}  
+a {
+    text-decoration: none;
+    color: #6C6C6C;
+	}   
+td,th {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    }
+th {
+    font-weight: bold;
+    padding: 0 5px;
+	}   
+input[type="button"] {
+    background-color: #F9F9F9;
+    border: 1px #F0F0F0 solid;
+    color: #6C6C6C;
+    font-size: 0.8rem;
+    padding: 3px;
+	}
+footer {
+	text-align:center;
+	vertical-align:bottom;
+	font-size:12px;
+	}
+div.square {
+	width:10px;
+	height:10px;
+	}
+div.partContent {
+	padding:0;
+	width:100%;
+	margin-bottom: 10px;
+	}
+div.clear {
+	clear:both;
+	}
+div.insideContent {
+	margin: auto;
+	}
+.insideContent {
+	text-align:center;
+}
